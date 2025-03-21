@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+h3.date-range {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3498db;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.chart-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  height: 400px;
+}
+
+.chart-container h4 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+.data-info {
+  text-align: center;
+  padding: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 10px;
+  display: none;
+}
+
+#loadingMessage {
+  font-style: italic;
+  color: #7f8c8d;
+}

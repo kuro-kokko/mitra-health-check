@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitraサーバー ヘルスチェック結果</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Mitraサーバー ヘルスチェック結果</h1>
+        <h3 class="date-range">期間: 2025年01月31日 〜 2025年03月07日</h3>
+        
+        <div id="memoryChartContainer" class="chart-container">
+            <h4>メモリ使用量の推移</h4>
+            <canvas id="memoryChart"></canvas>
+        </div>
+        
+        <div id="diskChartContainer" class="chart-container">
+            <h4>ディスク使用率の推移</h4>
+            <canvas id="diskChart"></canvas>
+        </div>
+        
+        <div id="servicesChartContainer" class="chart-container">
+            <h4>サービスステータスの推移</h4>
+            <canvas id="servicesChart"></canvas>
+        </div>
+        
+        <div class="data-info">
+            <div id="loadingMessage">データを読み込み中...</div>
+            <div id="errorMessage" class="error-message"></div>
+        </div>
+    </div>
+    <footer>
+      <!-- ©kuro-kokko -->
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

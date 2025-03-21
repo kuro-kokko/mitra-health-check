@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-02-09T22:00:06.589Z",
+  "cpu": {
+    "usage_percentage": 33.3
+  },
+  "memory": {
+    "total_mb": 969,
+    "used_mb": 452,
+    "free_mb": 377
+  },
+  "disk": {
+    "total": "30G",
+    "used": "3.9G",
+    "available": "25G",
+    "usage_percentage": 14
+  },
+  "services": {
+    "mitra": "active",
+    "postgresql": "active",
+    "nginx": "active"
+  },
+  "security": {
+    "failed_login_attempts": 0
+  },
+  "performance": {
+    "response_time_seconds": 0.00046
+  }
+}
